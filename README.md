@@ -1,1 +1,1 @@
-# pzin-projects
+# pascal-projects
