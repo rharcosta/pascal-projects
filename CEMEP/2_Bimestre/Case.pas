@@ -1,0 +1,62 @@
+Program Sorvete ;
+var x,y:integer;
+ Begin
+ write('1-Sorvete de massa no copinho');
+ writeln('');
+ write('2-Picolé');
+ writeln('');
+ write('3-Banana splitt ');
+ writeln('');
+ write('4-Cascão');
+ writeln('');
+ write('5-Casquinha');
+ writeln('');
+ write('Água');
+ writeln('Digite a opção requerida:');
+ writeln('');
+ readln(y);
+ case (y) of
+ 	1:writeln('Produto desejado: Sorvete de massa no copinho- R$4,00');
+ 	2:writeln('Produto desejado: Picolé- R$1,50');
+ 	3:writeln('Produto desejado: Banana Splitt- R$7,00');
+ 	4:writeln('Produto desejado: Cascão- R$5,00');
+ 	5:writeln('Produto desejado: Casquinha- R$3,00');
+ 	6:writeln('Produto desejado: Água- R$2,50');
+ end;
+ begin
+ write('1-Chocolate');
+ writeln('');
+ write('2-Morango'); 
+ writeln('');
+ write('3-Creme');
+ writeln('');
+ write('4-Baunilha');
+ writeln('');
+ write('5-Flocos');
+ writeln('');
+ write('6-Napolitano');
+ writeln('');
+ write('7-Frutas vermelhas');
+ writeln('');
+ write('8-Kiwi');
+ writeln('');
+ write('9-Creme do céu');
+ writeln('');
+ write('10-Pistache');       
+ writeln('');
+ writeln('Digite o sorvete desejado:');
+ writeln('');
+ readln(x);
+ case (x) of
+		1:writeln('Sorvete de Chocolate');
+	 	2:writeln('Sorvete de Morango');
+	 	3:writeln('Sorvete de Creme');
+	 	4:writeln('Sorvete de Baunilha');
+	 	5:writeln('Sorvete de Flocos');
+	 	6:writeln('Sorvete de napolitano');
+	 	7:writeln('Sorvete de Frutas vermelhas');
+	 	8:writeln('Sorvete de Kiwi');
+	 	9:writeln('Sorvete de Creme do ceu');
+ 		10: writeln('Sorvete de Pistache');
+ End;
+ End
